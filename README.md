@@ -1,0 +1,31 @@
+Octave Modbus Wrapper
+============
+
+### What is this repository for?
+
+* This repository was created to develop an Arduino wrapper for Modbus communication with Arad Octave ultrasonic water meters.
+
+It is compatible with ESP32-based microcontrollers, using any TTL-to-RS485 converter that can be interfaced via UART.
+
+### Arad Octave water meters info
+
+* [Documentation page](https://arad.co.il/products/bulk-water-meters/octave-ultrasonic-water-meter/)
+
+### How do I set up?
+
+* Install Git
+* Install Arduino IDE
+* Follow these [instructions](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#software-setup) to set up the ESP32 in the Arduino IDE
+* Connect the components as shown in the diagram found in [`schematic_diagram.pdf`]()
+
+* Clone this repo and upload [`main.ino`](https://github.com/DeltaLabo/OctaveModbusWrapper/tree/main/main) to the ESP32
+
+### Contribution guidelines ###
+
+* If you want to propose a change or need to modify the code for any reason first clone this [repository](https://github.com/DeltaLabo/rsim) to your PC and create a new branch for your changes. Once your changes are complete and fully tested ask the administrator permission to push this new branch into the source.
+* If you just want to do local changes instead you can download a zip version of the repository and do all changes locally in your PC. 
+
+### Who do I talk to? ###
+
+* [Juan J. Rojas](mailto:juan.rojas@itcr.ac.cr)
+* [Anthony Arguedas](mailto:antarguedas@estudiantec.r)
