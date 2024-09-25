@@ -19,7 +19,6 @@ This project is based on the Modbus RTU library developed by [Industrial Shields
 * Install Arduino IDE
 * If using **ESP32-based** microcontrollers, follow these [instructions](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/#software-setup) for Arduino IDE support
 * If using **Arduino-based** microcontrollers, install [`fp64lib`](https://www.arduino.cc/reference/en/libraries/fp64lib/) via the library manager
-* Connect the components as shown in the diagram found in [`schematic_diagram.pdf`]()
 * Clone this repo and upload [`main.ino`](https://github.com/DeltaLabo/OctaveModbusWrapper/tree/main/main) to the ESP32
 * Use an [Octave NFC reader](https://arad.co.il/wp-content/uploads/OCTAVE-Installation-Manuel-EN-web.pdf) to configure the water meter's Modbus slave address, baud rate, parity, and other variables
 * Modify the `MODBUS_SLAVE_ADDRESS` in `OctaveModbusWrapper.h` accordingly
