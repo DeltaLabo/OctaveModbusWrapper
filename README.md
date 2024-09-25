@@ -12,6 +12,7 @@ This project is based on the Modbus RTU library developed by [Industrial Shields
 ### Arad Octave water meters info
 
 * [Documentation page](https://arad.co.il/products/bulk-water-meters/octave-ultrasonic-water-meter/)
+* See [`Octave Memory Map.md`](https://github.com/DeltaLabo/OctaveModbusWrapper/blob/main/Octave%20Memory%20Map.md) for explanatory notes about the Modbus memory map implemented in Octave water meters
 
 ### How do I set up?
 
